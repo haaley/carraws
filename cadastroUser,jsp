@@ -1,0 +1,49 @@
+
+<%-- 
+    Document   : CadastroUser
+    Created on : 26/05/2018, 13:03:30
+    Author     : Luan ferro
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Cadastro Usuário</title>
+        <link rel="stylesheet" href="css/style.css">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    </head>
+    <body>
+        <div class="logo" align="center">
+            <img src="https://i.imgur.com/Yj0MhlZ.gif" >
+        </div> 
+        <div class="container">              
+            <form action="#" name="CadastroUsuario" method="POST">
+                <p>Cadastro de Usuario</p>
+                <div class="row"> 
+                    <div class="col-75">
+                        <input type="text" class="campos" name="nome" size="17"  placeholder="Nome Completo"><br /> 
+                    </div>
+                    <div class="col-75">
+                        <input type="text"  class="campos" name="usuario" size="17"  placeholder="Usuário"><br />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-75">
+                        <input type="email"  class="campos" name="email" size="34" placeholder="Email"><br />
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-75">
+                        <input type="password" class="campos" name="senha" size="34" placeholder="Senha"><br />
+                    </div>
+                </div>
+                <div class="buttom"> 
+                    <input type="checkbox" class="checkbox" name="termos">Eu li e concordo com os<a href="">Termos de uso</a>
+                    <input type="submit" class="btn" name="btnCadastrar" value="Cadastrar">           
+                </div>
+            </form>
+        </div>        
+    </body>
+</html>
